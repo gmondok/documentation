@@ -250,5 +250,16 @@ module.exports = {
         ],
       },
     ],
+    all: [
+      {
+      section: 'ADDITIONAL INFORMATION',
+      contents: [
+        { url: 'faq', title: 'FAQ' },
+        { url: 'glossary', title: 'Glossary' },
+        { url: 'example-projects', title: 'Example Projects' },
+        { url: 'workshop', title: 'Workshop Links' },
+      ],
+    },
+   ],
   },
 }

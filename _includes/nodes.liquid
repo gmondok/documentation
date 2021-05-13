@@ -13,7 +13,9 @@ layout: ./main.liquid
         {% assign section = "nodeOperator" %}
         {% endunless %}
 
-        {% for group in navigation.navigation[section] %}
+        {% assign navSections = navigation.navigation[section] | concat: navigation.navigation["all"] %}
+
+        {% for group in navSections %}
             <div>
                 <span class="nav-header">{{group.section}}</span>
                 {% for destination in group.contents %}
