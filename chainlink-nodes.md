@@ -6,6 +6,11 @@ title: "Welcome to Chainlink Node Operation!"
 
 <div>
   <div class="markdown-body">
+    <div class="cl-section-header">
+      <p>
+        Chainlink expands the capabilities of blockchains by enabling access to real-world data. Developers can build blockchain solutions using Chainlink to connect highly accurate and available data/APIs to any smart contract. The following pages contain comprehensive documentation of the Chainlink ecosystem. If you are new to Chainlink, you might want to check out the <a href="/docs/architecture-overview">Architecture Overview</a> first.
+      </p>
+    </div>
     <div class="cl-featuredcard">
         <div>
           <img

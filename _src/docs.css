@@ -284,6 +284,10 @@ hr {
   justify-content: center;
   align-content: space-between;
 }
+.cl-section-header {
+  padding: 0 0 48px;
+  justify-content: left;
+}
 .markdown-body .cl-section {
   padding: 0 0 48px;
   text-align: center;
